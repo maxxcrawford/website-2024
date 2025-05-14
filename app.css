@@ -1,0 +1,64 @@
+/*  */
+
+.theme-default {
+    
+    & .theme-font-subheadline {
+        font-family: "Instrument Serif", serif;
+    }
+}
+
+.theme-medieval {
+
+    background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGR0dWJoeWdsODJ5NHVweTJ3ODJ2djIxaGx6YXU1ZmhnYmJ6cnQ0biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oEdv8r4trYMTaCGfC/giphy.gif) repeat;
+
+    & .js-color-header {
+        background-color: rgba(180, 180, 180, 0.90);
+    }
+
+    & .js-color-main {
+        background-color: rgba(180, 180, 180, 0.90);
+    }
+
+    & .js-color-footer {
+        background-color: rgba(180, 180, 180, 0.90);
+    }
+
+    & .theme-font-headline {
+        font-family: "alagard", serif;
+    }
+
+    & .theme-font-subheadline {
+        font-family: "alagard", serif;
+    }
+}
+
+.theme-cowboy {
+
+    background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTdrNmRneWljemxzbHdydnhsanB4MGhoOHZyZG1tazh4cWc1NmlhdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1oGXIfsxujwGk7OoES/giphy.gif) repeat;
+
+    & .js-color-header {
+        /* background-color: rgba(180, 180, 180, 0.90); */
+    }
+
+    & .js-color-main {
+        /* background-color: rgba(180, 180, 180, 0.90); */
+    }
+
+    & .js-color-footer {
+        /* background-color: rgba(180, 180, 180, 0.90); */
+    }
+
+    & .theme-font-headline {
+        font-family: "BioRhyme Expanded", serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-style: normal !important
+    }
+
+    & .theme-font-subheadline {
+        font-family: "BioRhyme Expanded", serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-style: normal !important
+    }
+}
