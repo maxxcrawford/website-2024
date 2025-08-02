@@ -1,11 +1,86 @@
-.instrument-serif-regular {
+@font-face {
+    font-family: 'alagard';
+    src: url('alagard-webfont.woff2') format('woff2'),
+         url('alagard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Google Fonts */
+.font-biorhyme-expanded-extralight {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.font-biorhyme {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-biorhyme-expanded-regular {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-biorhyme-expanded-bold {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-biorhyme-expanded-extrabold {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-creepster {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-instrument {
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.instrument-serif-regular-italic {
+.font-instrument-serif-regular-italic {
   font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: italic;
+}
+
+.font-anybody {
+  font-family: "Anybody", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Custom font classes
+
+.font-instrument {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-instrument-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+} */
+
+/* Easter Egg - Medieval */
+
+.font-alagard {
+  font-family: "alagard", serif;
+  font-weight: 400;
 }

@@ -10,17 +10,34 @@
     <script src="https://kit.fontawesome.com/0b4447b789.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@300&family=Creepster&family=Instrument+Serif:ital@0;1&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app.css">
+    <!-- TODO: Update Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=BioRhyme+Expanded:wght@200;300;400;700;800&family=Creepster&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 
-<body class="instrument-serif-regular bg-neutral-50 text-neutral-700">
-    <header class="max-w-screen-lg mx-auto px-8 pt-4 sm:pb-4">
+<!-- 
+
+Replace "rose" with "X color"
+Replace js-font-body
+
+js-color-body
+js-color-header
+js-color-main
+
+js-color-border
+
+theme-font-headline
+theme-font-subheadline
+
+-->
+
+<body class="js-color-body js-font-body theme-default bg-neutral-50 text-neutral-700">
+    <header class="js-color-header max-w-screen-lg mx-auto px-8 py-4">
         <div class="">
-            <h1 class="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl pb-2">Maxx Crawford</h1>
-            <div class="border-t sm:border-y border-neutral-500 py-2 lg:py-3 italic">
-                <nav class="hidden sm:flex flex-col sm:flex-row gap-2 flex-wrap">
+            <h1 class="theme-font-headline font-instrument block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl pb-2">Maxx Crawford</h1>
+            <div class="js-color-border border-t sm:border-y border-neutral-500   italic">
+                <nav class="hidden sm:flex flex-col sm:flex-row gap-2 flex-wrap py-2 lg:py-3">
                     <a class="inline-block border border-neutral-500 px-3 py-1 hover:bg-rose-700 hover:text-neutral-100 hover:border-rose-700" href="#">About</a>
                     <a class="inline-block px-3 py-1 hover:bg-rose-700 hover:text-neutral-100 hover:border-rose-700" href="#">Portfolio</a>
                     <a class="inline-block px-3 py-1 hover:bg-rose-700 hover:text-neutral-100 hover:border-rose-700" href="#">Talks</a>
@@ -32,9 +49,9 @@
         </div>
     </header>
     <main>
-        <div class="max-w-screen-lg mx-auto px-8">
-            <section class="mb-8 pt-2">
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl mb-8">
+        <div class="js-color-main max-w-screen-lg mx-auto px-8 py-4">
+            <section class="mb-8">
+                <h2 class="theme-font-subheadline text-3xl sm:text-4xl lg:text-5xl xl:text-6xl mb-8">
                     <span class="block mb-3">
                         I <span class="text-rose-500 italic">build</span> <span data-list="web sites">things</span>.
                     </span>
@@ -55,7 +72,7 @@
                 <p class="text-xl max-w-screen-md">I've had a lot of titles, a variety of roles and can help you build a lot of different things. I've got over a decade of experience designing and developing. I work hand-in-hand with companies and national brands to grow ideas into sellable, shareable&nbsp;experiences. I'm also well-versed in iterating and improving on what great thing you already have. <a class="text-rose-700 underline" href="contact.html">Contact me to get the ball rolling.</a></p>
             </section>
             <section class="mb-8">
-                <h3 class="text-xl italic font-semibold mb-1">SERVICES:</h3>
+                <h3 class="theme-font-subheadline text-xl italic font-semibold mb-1">SERVICES:</h3>
                 <ul class="list-none flex flex-wrap gap-2 text-lg">
                     <li><span class="block border border-neutral-300 px-2 py-1">Frontend Development</span></li>
                     <li><span class="block border border-neutral-300 px-2 py-1">UX/UI Design</span></li>
@@ -71,7 +88,7 @@
                 </ul>
             </section>
             <section class="mb-8">
-                <h3 class="text-xl italic font-semibold mb-1">TOOLS/LANGUAGES:</h3>
+                <h3 class="theme-font-subheadline text-xl italic font-semibold mb-1">TOOLS/LANGUAGES:</h3>
                 <ul class="list-none flex flex-wrap gap-2 text-lg">
                     <li><span class="block border border-neutral-300 px-2 py-1">React</span></li>
                     <li><span class="block border border-neutral-300 px-2 py-1">TypeScript</span></li>
@@ -92,7 +109,7 @@
                 </ul>
             </section>
             <section class="mb-8">
-                <h3 class="text-xl italic font-semibold mb-1">CONTRIBUTIONS & PROJECTS:</h3>
+                <h3 class="theme-font-subheadline font-alagard text-xl italic font-semibold mb-1">CONTRIBUTIONS & PROJECTS:</h3>
                 <ul class="list-none flex flex-wrap gap-2 text-lg">
                     <li> <a class="block border border-neutral-300 px-2 py-1 hover:bg-rose-700 hover:text-neutral-100 hover:border-rose-700 " rel="noopener" href="https://relay.firefox.com" target="_blank">Firefox Relay<i class="ml-1 far fa-link"></i> </a></li>
                     <li> <a class="block border border-neutral-300 px-2 py-1 hover:bg-rose-700 hover:text-neutral-100 hover:border-rose-700 " rel="noopener" href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/" target="_blank">Facebook Container for Firefox<i class="ml-1 far fa-link"></i> </a></li>
@@ -110,20 +127,36 @@
             </section>
         </div>
     </main>
-    <footer class="mb-4 max-w-screen-lg mx-auto px-8">
-        <div class="border-t border-t-neutral-500 text-center sm:text-right pt-4">
-            <nav class="flex gap-4 justify-center sm:justify-end flex-wrap mb-2">
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="email icon" href="mailto:maxx@hellocrawford.com" target="_blank" alt="Email"><i class="far fa-envelope"></i></a>
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="dribbble icon" rel="noopener" href="https://dribbble.com/woodenwarship" target="_blank" alt="Dribbble"><i class="fab fa-dribbble"></i></a>
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="instagram icon" rel="noopener" href="https://www.instagram.com/woodenwarship/" target="_blank" alt="Instagram"><i class="fab fa-instagram"></i></a>
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="linkedin icon" rel="noopener" href="https://www.linkedin.com/in/maxx-crawford/" target="_blank" alt="Linked In"><i class="fab fa-linkedin"></i></a>
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="github icon" rel="noopener" href="https://www.github.com/maxxcrawford/" target="_blank" alt="Github"><i class="fab fa-github"></i></a>
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="gitlab icon" rel="noopener" href="https://www.gitlab.com/maxxcrawford/" target="_blank" alt="Gitlab"><i class="fab fa-gitlab"></i></a>
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="mastodon icon" rel="me" rel="noopener" href="https://mastodon.social/@woodenwarship" target="_blank" alt="Gitlab"><i class="fa-brands fa-mastodon"></i></a>
-                <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="bugzilla icon" rel="noopener" href="https://bugzilla.mozilla.org/user_profile?user_id=636237" target="_blank" alt="Bugzilla"><i class="fab fa-firefox"></i></a>
-            </nav>
-            <p class="text-neutral-900 text-lg">Black lives matter.</p>
-            <p class="text-neutral-600">&copy; <span class="copyright-year">2020</span> Maxx Crawford</p>
+    <footer class="js-color-footer mb-4 max-w-screen-lg mx-auto px-8 py-4">
+        <div class="border-t border-t-neutral-500 flex justify-center sm:justify-between pt-4">
+            <div>
+                <button class="" id="themeUpdater"><i class="fa-solid fa-dice-d20"></i> Roll The Dice</button>
+            </div>
+            <div class="sm:text-right">
+                <nav class="flex gap-4 justify-center sm:justify-end flex-wrap mb-2">
+                    <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="email icon" href="mailto:maxx@hellocrawford.com" target="_blank" alt="Email"><i class="far fa-envelope"></i></a>
+                    <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="dribbble icon" rel="noopener" href="https://dribbble.com/woodenwarship" target="_blank" alt="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="instagram icon" rel="noopener" href="https://www.instagram.com/woodenwarship/" target="_blank" alt="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="linkedin icon" rel="noopener" href="https://www.linkedin.com/in/maxx-crawford/" target="_blank" alt="Linked In"><i class="fab fa-linkedin"></i></a>
+                    <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="github icon" rel="noopener" href="https://www.github.com/maxxcrawford/" target="_blank" alt="Github"><i class="fab fa-github"></i></a>
+                    <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="mastodon icon" rel="me" rel="noopener" href="https://mastodon.social/@woodenwarship" target="_blank" alt="Gitlab"><i class="fa-brands fa-mastodon"></i></a>
+                    <a class="hover:text-rose-600 text-2xl hover:scale-105" aria-label="bugzilla icon" rel="noopener" href="https://bugzilla.mozilla.org/user_profile?user_id=636237" target="_blank" alt="Bugzilla"><i class="fab fa-firefox"></i></a>
+                </nav>
+                <p class="text-neutral-900 text-lg">Black lives matter.</p>
+                <p class="text-neutral-600">&copy; <span class="copyright-year">2024</span> Maxx Crawford</p>
+                <p class="text-neutral-600 text-right">
+                    <div class="w-6 inline-block mr-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-auto fill-neutral-600" width="193.78" height="97.21" viewBox="0 0 193.78 97.21">
+                            <g id="Layer_2" data-name="Layer 2">
+                                <g id="Layer_1-2" data-name="Layer 1">
+                                    <path class="cls-1" d="M193.68,93.6c0-5.23-.41-10.45-.33-15.69-.14-10.66-.06-21.32-.41-32-.61-4.45-1.59-8.83-2.25-13.27-1.22-7.07-2.81-14.13-2.93-21.33-.14-3.28-.22-6.55-.25-9.83-9.27.08-18.54.54-27.81.67-35.53.8-71.08.63-106.61-.28C38.22,1.58,23.35,1.25,8.51.31a52,52,0,0,0-6-.3h0C.65.34.74,2.62.69,4.1.53,7.73.3,11.36,0,15A2.39,2.39,0,0,0,1.21,17H1.1c.12.09.21.1.24.08a3.91,3.91,0,0,0,2.41.37c8.52.57,17.06.77,25.59,1.23,11.73.38,23.46.68,35.2,1,1.63,0,1.54,2.18,1.31,3.35-.26,1.62.06,3.25-.1,4.88C65.5,41.48,65.1,55,65.06,68.54c.23,2.33,2.39,3.62,3.94,5.07,1.61,1.66,3.31,3.82,5.86,3.73,4-.12,6.9-1.85,8.56,2.74a6.08,6.08,0,0,0,5.25,2.47C103.4,84,118,93.46,130.74,92.7c4.3-.46,10.71-1.23,14.1,1.38a7,7,0,0,0,6,1c7.33-3.09,18.68-7.29,25.82-5.47,2.53,1.55,4.72,3.65,7.45,4.9a64.27,64.27,0,0,0,6.27,2.69A2.94,2.94,0,0,0,193.68,93.6Z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <a class="hover:text-rose-600" rel="noopener" target="_blank" href="https://www.youtube.com/watch?v=KSRWuAxh9v0">Living on Tulsa Time</a>
+                </p>
+            </div>
         </div>
     </footer>
     <script src="app.js"></script>
