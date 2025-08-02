@@ -34,7 +34,10 @@
 
 .theme-cowboy {
 
-    background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTdrNmRneWljemxzbHdydnhsanB4MGhoOHZyZG1tazh4cWc1NmlhdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1oGXIfsxujwGk7OoES/giphy.gif) repeat;
+    /* background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTdrNmRneWljemxzbHdydnhsanB4MGhoOHZyZG1tazh4cWc1NmlhdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1oGXIfsxujwGk7OoES/giphy.gif) repeat; */
+
+    background: url(src/images/cowboy.jpg) #f0e6d5;
+    background-size: cover;
 
     & .js-color-header {
         /* background-color: rgba(180, 180, 180, 0.90); */
