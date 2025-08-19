@@ -32,7 +32,7 @@
                 }
             },
             "cowboy": {
-                color: "green",
+                color: "orange",
                 fonts: {
                     headline: "biorhyme",
                     subheadline: "biorhyme",
@@ -56,12 +56,12 @@
             console.log(themeAttributes)
 
             themeUpdater.update.color(themesData.default.color, themeAttributes.color);
-            
+
             body.classList.remove(`theme-default`);
             body.classList.add(themeName);
 
             // Last step
-            state.activeTheme = "medieval";
+            state.activeTheme = theme;
         },
         init: () => {
             console.log("themeUpdater init");
@@ -95,7 +95,7 @@
                 // TODO: Get random theme from themesData.themeList
                 themeUpdater.activateTheme("cowboy");
                 return;
-            } 
+            }
             themeUpdater.resetTheme();
         },
         update: {
